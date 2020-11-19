@@ -457,6 +457,7 @@ footer .container p {
     width: 300px;
   }
   .correto .container ul {
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
