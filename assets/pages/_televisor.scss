@@ -1,0 +1,78 @@
+.televisor {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imagem {
+      img {
+        width: 600px;
+      }
+    }
+    .content {
+      h4 {
+        margin: 0;
+        padding: 0;
+
+        font-size: 3.2rem;
+        font-weight: 600;
+      }
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+.correto {
+  .container {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 60px;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 20px;
+          margin-right: 10px;
+        }
+        span {
+          font-size: 2.0rem;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 726px) {
+  .televisor {
+    .container {
+      display: flex;
+    
+      flex-direction: column;
+      text-align: center;
+
+      .imagem {
+        img {
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  .correto {
+    .container {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}
