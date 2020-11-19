@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+  background-color: $black;
+}
+
+html {
+  font-size: 62%;
+}
+
+* {
+  
+  color: $white;
+}
+
+*, input, button {
+  font-family: 'inter', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  
+}
+a {
+  text-decoration: none;
+}
+
+
+@media (max-width:726px) {
+  html {
+    font-size: 43%;
+  }
+}
