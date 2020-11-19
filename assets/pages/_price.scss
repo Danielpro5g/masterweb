@@ -1,0 +1,78 @@
+.price {
+  margin: 40px 0;
+  .container { 
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .card {
+        display: flex;
+
+        height: 250px;
+        width: 420px;
+        box-shadow: 2px 3px 9px 6px rgba(44, 38, 38, 0.2);
+
+        background-color: #302c2c;
+        .basic {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+          padding: 20px;
+
+          .title {
+            font-size: 1.9rem;
+          }
+          .preco {
+            margin: 39px 0 0px 0;
+            padding: 0;
+            
+            font-weight: 100;
+            position: relative;
+
+            strong {
+              position: absolute;
+              top: 8px;
+              left: -10px;
+              font-size: 1.3rem;
+            }
+            font-size: 4.2rem;
+          }
+          .mensal {
+            font-size: 1.8rem;
+            font-weight: 100;
+            text-transform:uppercase;
+          }
+          .button_card {
+            padding: 20px;
+            margin-top: 22px;
+            background-color: #0f63e5;
+            font-size: 1.8rem;
+          }
+        }
+        .beneficio {
+          display: flex;
+          align-items: center;
+          ul { 
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            li {
+              display: flex;
+              align-items: center;
+
+              font-size: 1.4rem;
+              i {
+                font-size: 2.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
