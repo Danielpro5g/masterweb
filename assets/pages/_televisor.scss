@@ -68,11 +68,17 @@
 
   .correto {
     .container {
+      padding: 0px 10px;
       ul {
         padding: 0;
         display: flex;
-        flex-direction: column;
+        
         gap: 10px;
+        li {
+          span {
+            font-size: 1.4rem;
+          }
+        }
       }
     }
   }
