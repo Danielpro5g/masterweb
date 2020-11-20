@@ -515,9 +515,7 @@ footer .container p {
 
 .price .container .card .cards {
   padding: 20px;
-  height: 450px;
   min-width: 330px;
-  border: 1px solid #fff;
   border-radius: 0px;
 }
 
@@ -659,6 +657,18 @@ footer .container p {
   }
   .price .container .informacao ul li p {
     font-size: 2.6rem;
+  }
+  .price .container .card .cards .topo .title {
+    font-size: 4.8rem;
+  }
+  .price .container .card .cards .topo small {
+    font-size: 3.0rem;
+  }
+  .price .container .card .cards .preco p {
+    font-size: 2.4rem;
+  }
+  .price .container .card .cards .btns .buttons {
+    font-size: 4.0rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
