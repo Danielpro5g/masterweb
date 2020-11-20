@@ -471,119 +471,194 @@ footer .container p {
   }
 }
 
-.price {
-  margin: 40px 0;
-}
-
-.price .container .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 20px;
-}
-
-.price .container .cards .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 250px;
-  width: 420px;
-  -webkit-box-shadow: 2px 3px 9px 6px rgba(44, 38, 38, 0.2);
-          box-shadow: 2px 3px 9px 6px rgba(44, 38, 38, 0.2);
-  background-color: #302c2c;
-}
-
-.price .container .cards .card .basic {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 20px;
-}
-
-.price .container .cards .card .basic .title {
-  font-size: 1.9rem;
-}
-
-.price .container .cards .card .basic .preco {
-  margin: 39px 0 0px 0;
-  padding: 0;
+.price .container h3 {
+  text-align: center;
+  font-size: 4.6rem;
   font-weight: 100;
-  position: relative;
-  font-size: 4.2rem;
 }
 
-.price .container .cards .card .basic .preco strong {
-  position: absolute;
-  top: 8px;
-  left: -10px;
-  font-size: 1.3rem;
-}
-
-.price .container .cards .card .basic .mensal {
-  font-size: 1.8rem;
-  font-weight: 100;
-  text-transform: uppercase;
-}
-
-.price .container .cards .card .basic .button_card {
-  padding: 20px;
-  margin-top: 22px;
-  background-color: #0f63e5;
-  font-size: 1.8rem;
-}
-
-.price .container .cards .card .beneficio {
+.price .container .informacao {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-bottom: 60px;
 }
 
-.price .container .cards .card .beneficio ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 30px;
+.price .container .informacao ul {
+  width: 33.3%;
 }
 
-.price .container .cards .card .beneficio ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.price .container .informacao ul .txt {
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+.price .container .informacao ul li p {
   font-size: 1.4rem;
 }
 
-.price .container .cards .card .beneficio ul li i {
-  font-size: 2.2rem;
+.price .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.price .container .card .cards {
+  padding: 20px;
+  height: 450px;
+  min-width: 330px;
+  border: 1px solid #fff;
+  border-radius: 0px;
+}
+
+.price .container .card .cards .topo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price .container .card .cards .topo .title {
+  font-size: 2.8rem;
+}
+
+.price .container .card .cards .topo small {
+  font-size: 1.4rem;
+}
+
+.price .container .card .cards .topo hr {
+  width: 60%;
+}
+
+.price .container .card .cards .preco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+.price .container .card .cards .preco strong {
+  font-size: 1.2rem;
+}
+
+.price .container .card .cards .preco .valor {
+  font-size: 3.8rem;
+}
+
+.price .container .card .cards .preco p {
+  font-size: 1.4rem;
+}
+
+.price .container .card .cards .preco .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.price .container .card .cards .preco .icons img {
+  width: 40px;
+}
+
+.price .container .card .cards .preco p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.price .container .card .cards .preco .hub {
+  width: 200px;
+}
+
+.price .container .card .cards .preco .hub p {
+  margin: 0;
+  text-align: justify;
+}
+
+.price .container .card .cards .preco .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.price .container .card .cards .preco .btns .buttons a {
+  padding: 10px;
+  font-size: 1.8rem;
+  background-color: red;
+}
+
+.price .container .card .cards .preco .btns .whats p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.price .container .card .cards .preco .btns .whats span {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .price .container .informacao {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+  }
+  .price .container .informacao ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    gap: 0px;
+  }
+  .price .container .informacao ul .txt {
+    font-size: 4.3rem;
+  }
+  .price .container .informacao ul li p {
+    font-size: 2.6rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,74 +1,156 @@
 .price {
-  margin: 40px 0;
-  .container { 
-    .cards {
+  .container{
+    
+    
+    h3 {
+      text-align: center;
+      font-size: 4.6rem;
+      font-weight: 100;
+    }
+    .informacao {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-
-      .card {
-        display: flex;
-
-        height: 250px;
-        width: 420px;
-        box-shadow: 2px 3px 9px 6px rgba(44, 38, 38, 0.2);
-
-        background-color: #302c2c;
-        .basic {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-direction: column;
-          padding: 20px;
-
-          .title {
-            font-size: 1.9rem;
-          }
-          .preco {
-            margin: 39px 0 0px 0;
-            padding: 0;
-            
-            font-weight: 100;
-            position: relative;
-
-            strong {
-              position: absolute;
-              top: 8px;
-              left: -10px;
-              font-size: 1.3rem;
-            }
-            font-size: 4.2rem;
-          }
-          .mensal {
-            font-size: 1.8rem;
-            font-weight: 100;
-            text-transform:uppercase;
-          }
-          .button_card {
-            padding: 20px;
-            margin-top: 22px;
-            background-color: #0f63e5;
-            font-size: 1.8rem;
+      margin-bottom: 60px;
+      ul {
+        width: 33.3%;
+        .txt {
+          font-size: 2.8rem;
+          font-weight: 400;
+        }
+        li {
+          p {
+            font-size: 1.4rem;
           }
         }
-        .beneficio {
+      }
+    }
+    
+    .card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap:40px;
+      margin-bottom: 20px;
+      .cards {
+
+        
+        padding: 20px;
+
+        height: 450px;
+        min-width: 330px;
+        border: 1px solid #fff;
+        border-radius: 0px;
+        
+       .topo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+          .title {
+            font-size: 2.8rem;
+          }
+          small {
+            font-size: 1.4rem;
+          }
+
+          hr {
+            width: 60%;
+          }
+        }
+        .preco {
           display: flex;
           align-items: center;
-          ul { 
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            gap: 30px;
-            li {
-              display: flex;
-              align-items: center;
+          flex-direction: column;
 
-              font-size: 1.4rem;
-              i {
-                font-size: 2.2rem;
+          margin-top: 30px;
+          
+          strong {
+           font-size: 1.2rem;
+          }
+          .valor {
+            font-size: 3.8rem;
+          }
+          p {
+            font-size: 1.4rem;
+          }
+          .icons {
+          
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            padding: 30px 0;
+            img {
+              width: 40px;
+            }
+          }
+          p {
+            margin: 0;
+            padding: 10px 0;
+          }
+          .hub {
+            width: 200px;
+
+            p {
+              margin: 0;
+              text-align: justify;
+            }
+          }
+
+          .btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 10px;
+            padding: 10px 0;
+
+            .buttons {
+
+              a {
+                padding: 10px;
+                font-size: 1.8rem;
+                background-color: red;
               }
+            }
+            .whats {
+              p {
+                margin: 0;
+                padding: 0;
+                font-size: 1.8rem;
+              }
+
+              span {
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .price {
+    .container {
+      .informacao {
+        display: flex;
+        flex-direction: column;
+
+        padding: 20px;
+
+        ul {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          gap: 0px;
+          .txt {
+            font-size: 4.3rem;
+          }
+          li {
+            p {
+              font-size: 2.6rem;
             }
           }
         }
