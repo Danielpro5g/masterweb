@@ -667,8 +667,14 @@ footer .container p {
   .price .container .card .cards .preco p {
     font-size: 2.4rem;
   }
-  .price .container .card .cards .btns .buttons {
-    font-size: 4.0rem;
+  .price .container .card .cards .preco .hub p {
+    font-size: 3.0rem;
+  }
+  .price .container .card .cards .preco .btns .buttons a {
+    font-size: 2.8rem;
+  }
+  .price .container .card .cards .preco .btns .whats p {
+    font-size: 2.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

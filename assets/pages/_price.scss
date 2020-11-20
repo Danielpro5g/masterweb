@@ -169,10 +169,23 @@
             p {
               font-size: 2.4rem;
             }
-          }
-          .btns {
-            .buttons{
-              font-size: 4.0rem;
+            .hub {
+              p {
+                font-size: 3.0rem;
+              }
+            }
+
+            .btns {
+              .buttons{
+                a {
+                  font-size: 2.8rem;
+                }
+              }
+              .whats {
+                p {
+                  font-size: 2.2rem;
+                }
+              }
             }
           }
         }
